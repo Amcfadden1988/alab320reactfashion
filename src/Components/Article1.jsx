@@ -1,5 +1,5 @@
-
-function Article1() //{
+ 
+function Article1()  {
     const imgURL="../src/images/blog-image-1.jpg";
     const alt="Brooklyn";
 return(
@@ -18,7 +18,7 @@ return(
   <button> continues </button>
 </article>
 );
-
 }
+
 
 export default Article1; 

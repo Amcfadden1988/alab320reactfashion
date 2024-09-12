@@ -1,10 +1,13 @@
 import Header from './Components/Header';
-function Header()
-return{
+
+function Header() {
+  return (
+
 <header>
 <h1> Sartre's List </h1>
+
 <h2>Better-Dressed People</h2>
-<!-----NAV-->
+
   <nav aria-label="Main Navigation" role="navigation">
 <ul>   
     <li><a href="#" class="lightgray">Women's</a></li>
@@ -15,6 +18,9 @@ return{
     <li><a href="#" class="lightgray">About</a></li>
   </ul>
 </nav>
+
 </header>
+  );
 }
+
 export default Header;

@@ -1,7 +1,7 @@
 import Footer from './Components/Footer';
 
-function Footer()
-return{ 
+function Footer() {
+  return (
     <footer>
    
 
@@ -19,7 +19,10 @@ return{
   </nav>
 
   <p>&copy; 2013 Valet Industries, Inc</p>
-}
+
+  </footer>
+ );
+ }
 
 
 export default Footer;
